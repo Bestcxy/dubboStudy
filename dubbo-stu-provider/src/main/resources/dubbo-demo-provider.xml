@@ -35,6 +35,6 @@
 	<bean id="demoService" class="com.bestcxx.stu.dubbo.serviceImpl.StudyServiceImpl" />
 
 	<!-- 服务提供者暴露服务配置： -->
-	<dubbo:service interface="com.bestcxx.stu.dubbo.service.StudyService" ref="demoService"/> 
+	<dubbo:service interface="com.bestcxx.stu.dubbo.service.StudyService" ref="demoService" version="1.0.0" group="group1" retries="0"/> 
 	
 </beans>

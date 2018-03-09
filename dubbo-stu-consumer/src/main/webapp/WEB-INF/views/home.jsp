@@ -10,6 +10,6 @@
 <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 <body>
-	dubbo 调用成功 ${response}
+	dubbo 调用成功 ${map}
 </body>
 </html>
